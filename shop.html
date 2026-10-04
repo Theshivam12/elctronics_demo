@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Shop mobiles, TVs, refrigerators, chargers, headphones and mobile covers at Voltix.">
+<meta name="theme-color" content="#07111f">
+<title>Shop — Voltix Electronics</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="shop-page">
+<header class="header" id="header">
+  <div class="container nav-container">
+    <a href="index.html" class="logo"><span class="logo-icon">V</span><span>Voltix</span></a>
+    <nav class="nav" id="nav"><a href="index.html" class="nav-link">Home</a><a href="shop.html" class="nav-link active">Shop</a></nav>
+    <div class="nav-actions"><a href="#products" class="nav-shop-btn">Browse Products</a>
+      <button class="menu-btn" id="menuBtn" type="button" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main>
+<!-- <section class="shop-hero">
+  <div class="container"><div class="shop-hero-content reveal"><span class="eyebrow">VOLTIX STORE</span><h1>Find your next <span>favorite device.</span></h1><p>Explore our collection of modern electronics and everyday accessories.</p></div></div>
+</section> -->
+
+<section class="products-section section" id="products">
+<div class="container">
+  <div class="shop-toolbar reveal">
+    <div><span class="eyebrow">OUR COLLECTION</span><h2>Shop products</h2></div>
+    <div class="filter-buttons">
+      <button class="filter-btn active" data-filter="all" type="button">All</button>
+      <button class="filter-btn" data-filter="mobile" type="button">Mobiles</button>
+      <button class="filter-btn" data-filter="tv" type="button">TVs</button>
+      <button class="filter-btn" data-filter="refrigerator" type="button">Refrigerators</button>
+      <button class="filter-btn" data-filter="accessories" type="button">Accessories</button>
+    </div>
+  </div>
+
+  <div class="product-grid">
+    <article class="product-card reveal" data-category="mobile"><div class="product-image"><span class="product-tag">New</span><img src="images/mobilephone.jpg" alt="Nova X Pro smartphone" loading="lazy"><button class="quick-btn" type="button" aria-label="Quick view">+</button></div><div class="product-info"><span class="product-category">Smartphone</span><h3>Nova X Pro</h3><p>6.7" AMOLED · 256GB · 5G</p><div class="product-bottom"><strong>₹49,999</strong><a class="enquiry-btn" href="#" data-enquiry="true">Enquire on WhatsApp</a></div></div></article>
+    <article class="product-card reveal" data-category="mobile"><div class="product-image"><span class="product-tag">Popular</span><img src="images/mobilephone.jpg" alt="Nova Air smartphone" loading="lazy"><button class="quick-btn" type="button" aria-label="Quick view">+</button></div><div class="product-info"><span class="product-category">Smartphone</span><h3>Nova Air 5G</h3><p>6.5" OLED · 128GB · 5G</p><div class="product-bottom"><strong>₹29,999</strong><a class="enquiry-btn" href="#" data-enquiry="true">Enquire on WhatsApp</a></div></div></article>
+    <article class="product-card reveal" data-category="tv"><div class="product-image"><span class="product-tag">Smart</span><img src="images/television.jpg" alt="Vision 55 inch smart TV" loading="lazy"><button class="quick-btn" type="button" aria-label="Quick view">+</button></div><div class="product-info"><span class="product-category">Smart TV</span><h3>Vision 55 4K</h3><p>55" 4K UHD · HDR · Google TV</p><div class="product-bottom"><strong>₹44,999</strong><a class="enquiry-btn" href="#" data-enquiry="true">Enquire on WhatsApp</a></div></div></article>
+    <article class="product-card reveal" data-category="tv"><div class="product-image"><img src="images/television.jpg" alt="Vision 43 inch smart TV" loading="lazy"><button class="quick-btn" type="button" aria-label="Quick view">+</button></div><div class="product-info"><span class="product-category">Smart TV</span><h3>Vision 43 4K</h3><p>43" 4K UHD · Dolby Audio</p><div class="product-bottom"><strong>₹31,999</strong><a class="enquiry-btn" href="#" data-enquiry="true">Enquire on WhatsApp</a></div></div></article>
+    <article class="product-card reveal" data-category="refrigerator"><div class="product-image"><span class="product-tag">Eco</span><img src="images/fridge.jpg" alt="CoolMax double door refrigerator" loading="lazy"><button class="quick-btn" type="button" aria-label="Quick view">+</button></div><div class="product-info"><span class="product-category">Refrigerator</span><h3>CoolMax 340L</h3><p>Double Door · Inverter · Frost Free</p><div class="product-bottom"><strong>₹36,490</strong><a class="enquiry-btn" href="#" data-enquiry="true">Enquire on WhatsApp</a></div></div></article>
+    <article class="product-card reveal" data-category="refrigerator"><div class="product-image"><img src="images/fridge.jpg" alt="CoolMax single door refrigerator" loading="lazy"><button class="quick-btn" type="button" aria-label="Quick view">+</button></div><div class="product-info"><span class="product-category">Refrigerator</span><h3>CoolMax 190L</h3><p>Single Door · Inverter · Efficient</p><div class="product-bottom"><strong>₹18,999</strong><a class="enquiry-btn" href="#" data-enquiry="true">Enquire on WhatsApp</a></div></div></article>
+    <article class="product-card reveal" data-category="accessories"><div class="product-image"><span class="product-tag">Fast</span><img src="images/chargers.jpg" alt="65W fast charger" loading="lazy"><button class="quick-btn" type="button" aria-label="Quick view">+</button></div><div class="product-info"><span class="product-category">Charger</span><h3>VoltCharge 65W</h3><p>GaN · USB-C PD · Fast Charging</p><div class="product-bottom"><strong>₹1,499</strong><a class="enquiry-btn" href="#" data-enquiry="true">Enquire on WhatsApp</a></div></div></article>
+    <article class="product-card reveal" data-category="accessories"><div class="product-image"><img src="images/headphone.jpg" alt="Wireless headphones" loading="lazy"><button class="quick-btn" type="button" aria-label="Quick view">+</button></div><div class="product-info"><span class="product-category">Audio</span><h3>Pulse Headphones</h3><p>ANC · 40H Battery · Bluetooth</p><div class="product-bottom"><strong>₹3,999</strong><a class="enquiry-btn" href="#" data-enquiry="true">Enquire on WhatsApp</a></div></div></article>
+    <article class="product-card reveal" data-category="accessories"><div class="product-image"><span class="product-tag">New</span><img src="images/cover.jpg" alt="Premium mobile covers" loading="lazy"><button class="quick-btn" type="button" aria-label="Quick view">+</button></div><div class="product-info"><span class="product-category">Mobile Cover</span><h3>Armor Flex Case</h3><p>Shockproof · Slim · MagSafe Ready</p><div class="product-bottom"><strong>₹699</strong><a class="enquiry-btn" href="#" data-enquiry="true">Enquire on WhatsApp</a></div></div></article>
+    <article class="product-card reveal" data-category="accessories"><div class="product-image"><img src="images/typeC.jpg" alt="USB-C charging cable" loading="lazy"><button class="quick-btn" type="button" aria-label="Quick view">+</button></div><div class="product-info"><span class="product-category">Cable</span><h3>Flex USB-C Cable</h3><p>100W · Braided · 2 Metres</p><div class="product-bottom"><strong>₹599</strong><a class="enquiry-btn" href="#" data-enquiry="true">Enquire on WhatsApp</a></div></div></article>
+  </div>
+  <div class="empty-state" id="emptyState" hidden>No products found in this category.</div>
+</div>
+</section>
+</main>
+
+<footer class="footer">
+<div class="container">
+  <div class="footer-main">
+    <div class="footer-brand"><a href="index.html" class="logo"><span class="logo-icon">V</span><span>Voltix</span></a><p>Modern electronics for modern living.</p><div class="socials"><a href="#" aria-label="Instagram">IG</a><a href="#" aria-label="Facebook">FB</a><a href="#" aria-label="YouTube">YT</a></div></div>
+    <div class="footer-column"><h4>Quick Links</h4><a href="index.html">Home</a><a href="shop.html">Shop</a></div>
+    <div class="footer-column"><h4>Categories</h4><a href="shop.html?category=mobile">Mobiles</a><a href="shop.html?category=tv">Smart TVs</a><a href="shop.html?category=refrigerator">Refrigerators</a><a href="shop.html?category=accessories">Accessories</a></div>
+    <div class="footer-column contact-column"><h4>Contact</h4><a href="mailto:hello@voltix.com">hello@voltix.com</a><a href="tel:+910000000000">+91 0000000000</a><p>Maharashtra, India</p></div>
+  </div>
+  <div class="footer-bottom"><span>© 2026 Voltix. All rights reserved.</span><span>Frontend Demo Store</span></div>
+</div>
+</footer>
+<script src="js/script.js" defer></script>
+</body>
+</html>

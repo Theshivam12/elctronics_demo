@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Voltix modern electronics store frontend.">
+<meta name="theme-color" content="#07111f">
+<title>Voltix — Electronics Store</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="header" id="header">
+  <div class="container nav-container">
+    <a href="index.html" class="logo"><span class="logo-icon">V</span><span>Voltix</span></a>
+    <nav class="nav" id="nav">
+      <a href="index.html" class="nav-link active">Home</a>
+      <a href="shop.html" class="nav-link">Shop</a>
+    </nav>
+    <div class="nav-actions">
+      <a href="shop.html" class="nav-shop-btn">Explore Shop</a>
+      <button class="menu-btn" id="menuBtn" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+<!-- =====================================================
+     HERO SECTION
+     ===================================================== -->
+
+<section class="hero">
+
+    <!-- Hero Background Slider -->
+    <div class="hero-bg">
+
+        <div
+            class="hero-bg-slide active"
+            style="background-image: url('images/phoneBG.jpg');">
+        </div>
+
+        <div
+            class="hero-bg-slide"
+            style="background-image: url('images/tvBG.jpg');">
+        </div>
+
+        <div
+            class="hero-bg-slide"
+            style="background-image: url('images/headphoneBG.jpg');">
+        </div>
+
+        <div
+            class="hero-bg-slide"
+            style="background-image: url('images/fridgeBG.jpg');">
+        </div>
+
+    </div>
+
+
+    <!-- Dark Overlay -->
+    <div class="hero-overlay"></div>
+
+
+    <!-- Hero Content -->
+    <div class="container">
+
+        <div class="hero-content reveal">
+
+            <div class="hero-badge">
+                ⚡ Next Generation Electronics
+            </div>
+
+            <h1>
+                Power Your World
+                With <span>Voltix</span>
+            </h1>
+
+            <!-- <p>
+                Discover the latest smartphones, smart TVs,
+                refrigerators, accessories and modern electronics
+                at Voltix.
+            </p> -->
+
+            <div class="hero-buttons">
+
+                <a href="shop.html" class="btn btn-primary">
+                    Explore Shop
+                </a>
+
+                <!-- <a href="#services" class="btn btn-secondary">
+                    Our Services
+                </a> -->
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Slider Dots -->
+
+    <div class="hero-dots">
+
+        <button
+            class="hero-dot active"
+            data-slide="0"
+            aria-label="Show slide 1">
+        </button>
+
+        <button
+            class="hero-dot"
+            data-slide="1"
+            aria-label="Show slide 2">
+        </button>
+
+        <button
+            class="hero-dot"
+            data-slide="2"
+            aria-label="Show slide 3">
+        </button>
+
+        <button
+            class="hero-dot"
+            data-slide="3"
+            aria-label="Show slide 4">
+        </button>
+
+    </div>
+
+</section>
+
+<section class="categories section">
+  <div class="container">
+    <div class="section-heading reveal">
+      <div><span class="eyebrow">SHOP BY CATEGORY</span><h2>Everything you need.</h2></div>
+      <a href="shop.html" class="view-all">View all →</a>
+    </div>
+    <div class="category-grid">
+      <a href="shop.html?category=mobile" class="category-card reveal">
+        <div class="category-image"><img src="images/mobilephone.jpg" alt="Mobile phones" loading="lazy"></div>
+        <div class="category-content"><span>01</span><h3>Mobiles</h3><p>Latest smartphones</p></div><div class="category-arrow">↗</div>
+      </a>
+      <a href="shop.html?category=tv" class="category-card reveal">
+        <div class="category-image"><img src="images/television.jpg" alt="Smart TVs" loading="lazy"></div>
+        <div class="category-content"><span>02</span><h3>Smart TVs</h3><p>Entertainment redefined</p></div><div class="category-arrow">↗</div>
+      </a>
+      <a href="shop.html?category=refrigerator" class="category-card reveal">
+        <div class="category-image"><img src="images/fridge.jpg" alt="Refrigerators" loading="lazy"></div>
+        <div class="category-content"><span>03</span><h3>Refrigerators</h3><p>Smart & efficient</p></div><div class="category-arrow">↗</div>
+      </a>
+      <a href="shop.html?category=accessories" class="category-card reveal">
+        <div class="category-image"><img src="images/headphone.jpg" alt="Electronics accessories" loading="lazy"></div>
+        <div class="category-content"><span>04</span><h3>Accessories</h3><p>Complete your setup</p></div><div class="category-arrow">↗</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="services section" id="services">
+  <div class="container">
+    <div class="section-heading center reveal">
+      <span class="eyebrow">WHY VOLTIX</span><h2>More than just a store.</h2>
+      <p>We make buying electronics simple, reliable and enjoyable.</p>
+    </div>
+    <div class="services-grid">
+      <article class="service-card reveal"><div class="service-number">01</div><div class="service-icon">⚡</div><h3>Latest Technology</h3><p>Explore new-generation products from popular electronics brands.</p></article>
+      <article class="service-card reveal"><div class="service-number">02</div><div class="service-icon">🛡️</div><h3>Trusted Products</h3><p>Carefully selected products designed for quality, performance and reliability.</p></article>
+      <article class="service-card reveal"><div class="service-number">03</div><div class="service-icon">🚚</div><h3>Fast Delivery</h3><p>Get your electronics delivered quickly and safely to your doorstep.</p></article>
+      <article class="service-card reveal"><div class="service-number">04</div><div class="service-icon">💬</div><h3>Expert Support</h3><p>Get helpful guidance before and after purchasing your products.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="feature section">
+  <div class="container">
+    <div class="feature-box reveal">
+      <div class="feature-content">
+        <span class="eyebrow">LEVEL UP YOUR SETUP</span>
+        <h2>Upgrade your everyday technology.</h2>
+        <p>From powerful smartphones to immersive entertainment and smart home appliances.</p>
+        <a href="shop.html" class="btn btn-primary">Start Shopping <span>→</span></a>
+      </div>
+      <!-- <div class="feature-decoration"><div class="floating-circle circle-one"></div><div class="floating-circle circle-two"></div><div class="floating-device"><span>V</span></div></div> -->
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="footer" id="contact">
+  <div class="container">
+    <div class="footer-main">
+      <div class="footer-brand reveal">
+        <a href="index.html" class="logo"><span class="logo-icon">V</span><span>Voltix</span></a>
+        <p>Modern electronics for modern living. Discover technology designed around you.</p>
+        <div class="socials"><a href="#" aria-label="Instagram">IG</a><a href="#" aria-label="Facebook">FB</a><a href="#" aria-label="YouTube">YT</a></div>
+      </div>
+      <div class="footer-column reveal"><h4>Quick Links</h4><a href="index.html">Home</a><a href="shop.html">Shop</a></div>
+      <div class="footer-column reveal"><h4>Categories</h4><a href="shop.html?category=mobile">Mobiles</a><a href="shop.html?category=tv">Smart TVs</a><a href="shop.html?category=refrigerator">Refrigerators</a><a href="shop.html?category=accessories">Accessories</a></div>
+      <div class="footer-column contact-column reveal"><h4>Contact</h4><a href="mailto:hello@voltix.com">hello@voltix.com</a><a href="tel:+910000000000">+91 00000 00000</a><p>Maharashtra, India</p></div>
+    </div>
+    <div class="footer-bottom"><span>© 2026 Voltix. All rights reserved.</span><span>Frontend Demo Store</span></div>
+  </div>
+</footer>
+<script src="js/script.js" defer></script>
+</body>
+</html>
