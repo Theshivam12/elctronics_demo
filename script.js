@@ -6,9 +6,9 @@ document.addEventListener("DOMContentLoaded", () => {
    * Use country code + number, without +, spaces or brackets.
    *
    * Example for India:
-   * const OWNER_WHATSAPP = "919876543210";
+   * const OWNER_WHATSAPP = "0000000000";
    */
-  const OWNER_WHATSAPP = "919876543210";
+  const OWNER_WHATSAPP = "0000000000";
 
   const header = document.getElementById("header");
   const menuBtn = document.getElementById("menuBtn");
