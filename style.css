@@ -999,7 +999,7 @@ button {
             rgba(11, 61, 145, 0.72),
             rgba(11, 61, 145, 0.72)
         ),
-        url("../images/HeroBG.jpg");
+        url("HeroBG.jpg");
         
 
         background-size: cover;
